@@ -1,0 +1,152 @@
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .info-block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .left-block {
+        display: none;
+    }
+
+    .right-block {
+        width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .info-block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+
+
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.left-block {
+    background-color: rgb(226, 217, 217);
+    float: left;
+    width: 20%;
+    height: 59em;
+}
+
+.right-block {
+    width: 80%;
+    background-color: rgb(161, 153, 153);
+    float: right;
+    height: 59em;
+}
+
+.company {
+    margin: 20px;
+}
+
+.company > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.company img {
+    margin-right: 10px;
+}
+
+.user {
+    color: #ffffff;
+    background-color: rgb(184, 12, 64);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+table {
+    background-color: #ffffff;
+    width: 65%;
+}
+
+.edit {
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(184, 12, 64);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.edit > p {
+    margin: 0;
+}
+
+td {
+    padding: 20px;
+    text-align: left;
+}
+
+button {
+    background-color: rgb(184, 12, 64);
+    color: #ffffff;
+    padding: 5px 30px;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.info-block {
+    background-color: #ffffff;
+    height: 100%;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.pfp-block img {
+    scale: 0.75;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.info-block p,
+.info-block h2 {
+    margin-top: 0;
+    margin: 10px 0;
+}
